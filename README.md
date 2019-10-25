@@ -23,7 +23,7 @@ remove graphics tag
 php index.php remove /path/to/file.swf
 ```
 
-also works with swfs insde a directory
+also works with swfs inside a directory
 ```shell
 php index.php remove /path/to/directory
 ```
