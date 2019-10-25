@@ -1,6 +1,6 @@
 # habbo-graphics-remover
 
-a tiny script to remove graphics tag from swfs
+a tiny script to add or remove graphics tag from swfs
 
 ## requirement
 
@@ -9,14 +9,21 @@ a tiny script to remove graphics tag from swfs
 
 ## usage
 
-run this command in your terminal
-
 ```shell
-php index.php /path/to/file.swf
+php index.php [add OR remove] [path to file OR directory]
 ```
 
-or to remove graphics tag from all swfs inside a directory
-
+***example to add graphics tag***
 ```shell
-php index.php /path/to/directory
+php index.php add /path/to/file.swf
+```
+
+***example to remove graphics tag***
+```shell
+php index.php remove /path/to/file.swf
+```
+
+***example with directory***
+```shell
+php index.php remove /path/to/directory
 ```
