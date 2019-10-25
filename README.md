@@ -13,17 +13,17 @@ a tiny script to add or remove graphics tag from swfs
 php index.php [add OR remove] [path to file OR directory]
 ```
 
-***example to add graphics tag***
+add graphics tag
 ```shell
 php index.php add /path/to/file.swf
 ```
 
-***example to remove graphics tag***
+remove graphics tag
 ```shell
 php index.php remove /path/to/file.swf
 ```
 
-***example with directory***
+also works with swfs insde a directory
 ```shell
 php index.php remove /path/to/directory
 ```
