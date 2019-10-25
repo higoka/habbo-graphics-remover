@@ -1,4 +1,4 @@
-# habbo-graphics-remover
+# habbo-graphics-tag
 
 a tiny script to add or remove graphics tag from swfs
 
